@@ -2,10 +2,8 @@
 ###### 20243131김창영
 # jobs
 
-jobs [-lnprs] [jobspec ...] 또는 jobs -x command [args]
-작업의 상태를 표시합니다.
-
-활성 작업을 나열합니다. JOBSPEC은 해당 작업에 대한 출력을 제한합니다.
+작업의 상태를 표시합니다.</br>
+활성 작업을 나열합니다. JOBSPEC은 해당 작업에 대한 출력을 제한합니다.</br>
 옵션이 없는 경우 모든 활성 작업의 상태가 표시됩니다.
 
 | 옵션 | 설명 |
@@ -24,7 +22,6 @@ jobs [-lnprs] [jobspec ...] 또는 jobs -x command [args]
 
 
 # kill
-ex)kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... 또는 kill -l [sigspec]
 
 작업에 신호를 보냅니다.</br>
 PID 또는 JOBSPEC으로 식별된 프로세스에 SIGSPEC 또는 SIGNUM으로 명명된 신호를 보냅니다.</br>
